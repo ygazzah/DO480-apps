@@ -36,4 +36,6 @@ spec:
           value: mypa55
         - name: APP_PORT
           value: '8080'
+      imagePullSecrets:
+        - name: muorg-testrobot-pull-secret
 ---
